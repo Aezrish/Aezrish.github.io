@@ -1,0 +1,160 @@
+/* INDEX */
+.navbar-nav li {
+    padding-inline: 20px;
+}
+.nav-link {
+  background-image: linear-gradient(
+    to right,
+    #16c2e0,
+    #f317ce 50%,
+    rgb(255, 228, 196) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  font-size: 25px;
+  font-family: 'Creepster', cursive;
+}
+
+.nav-link:before {
+  content: '';
+  background: #00d9ff;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+ background-position: 0;
+}
+
+.nav-link:hover::before {
+  width:100%;
+}
+#carousel-heading {
+    font-size: 35px;
+    font-family: 'Cinzel Decorative', cursive;
+    
+}
+.bg-colour {
+    background-color: rgb(30, 23, 36);
+    border-bottom: 1px solid #222;
+}
+#brand {
+    color: rgb(170, 146, 116);
+    font-family: 'Creepster', cursive;
+}
+.footer {
+    border: 1px solid #222;
+    color: bisque;
+}
+.footer-background {
+     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/017/939/original/cosmic-galaxy-with-nebula-free-video.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+      
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+    background-repeat: no-repeat;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.card-body {
+    background-color: rgb(30, 23, 36);
+    color: bisque;
+}
+.card {
+    border:1px solid #222;
+}
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+.heading {
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+#icons {
+    font-size: 40px;
+  background: -moz-linear-gradient(top, #7e244e 0%, #46c642 100%);
+  background: -webkit-linear-gradient(top, #2c93e7 0%, #aec642 100%);
+  background: linear-gradient(to bottom, #e7d42c 0%, #7c3f8f 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+#link {
+    text-decoration: none;
+  background: -moz-linear-gradient(top, #2cc2e7 0%, #42c693 100%);
+  background: -webkit-linear-gradient(top, #2ce7de 0%, #5e42c6 100%);
+  background: linear-gradient(to bottom, #252525 0%, #fffb00 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Pacifico', cursive;
+
+} 
+li {
+    list-style-type: none;
+}
+.contact-h {
+    font-family: 'Cinzel Decorative', cursive;
+    color:bisque;
+}
+/* INDEX */
+/* TEAM */
+
+.team-header {
+  margin-top: 150px;
+  text-decoration: none;
+  background: -moz-linear-gradient(top, #2cc2e7 0%, #42c693 100%);
+  background: -webkit-linear-gradient(top, #2ce7de 0%, #5e42c6 100%);
+  background: linear-gradient(to bottom, #252525 0%, #fffb00 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Cinzel Decorative', cursive;
+}
+.team-p {
+  color: bisque;
+}
+.team-h {
+  text-decoration: none;
+  background: -moz-linear-gradient(top, #2cc2e7 0%, #42c693 100%);
+  background: -webkit-linear-gradient(top, #e72cbe 0%, #c66142 100%);
+  background: linear-gradient(to bottom, #252525 0%, #00ff00 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Pacifico', cursive;
+}
+.team-card-text {
+  background-color: rgb(30, 23, 36);
+  color: bisque;
+}
